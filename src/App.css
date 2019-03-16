@@ -8,7 +8,9 @@
   flex-direction: column;
   font-weight: bold;
   text-transform: uppercase;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .draw_button {
@@ -31,6 +33,7 @@
 
 .drawAgain_button {
   text-transform: uppercase;
+  width: 50%;
 }
 
 .outcome_text {
