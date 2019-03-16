@@ -8,6 +8,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
