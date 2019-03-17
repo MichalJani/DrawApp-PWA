@@ -51,9 +51,7 @@ class App extends Component {
       <div className="backgroundColor" style={{
         background: backgroundColor
       }}>
-        <div
-          className="button_container"
-        >
+        <div className="button_container">
           <div className="outcome_text">
             <span>{drawOutcome}</span>
           </div>
