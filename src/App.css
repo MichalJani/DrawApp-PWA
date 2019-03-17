@@ -8,13 +8,9 @@
   flex-direction: column;
   font-weight: bold;
   text-transform: uppercase;
-<<<<<<< HEAD
-  align-items: center;
-=======
   display: flex;
   align-items: center;
   justify-content: center;
->>>>>>> pwaDev
 }
 
 .draw_button {
