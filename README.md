@@ -1,13 +1,4 @@
-width 320px
-mobile first
-chce zeby byla pwa
-
-chce moc nacisnąć przycisk do losowania od razu
-chcę żeby przycisk się wgłębiał przy naciśnięciu
-chcę mieć odpowiedź tak lub nie
-chcę mieć opcje losowania ponownie ( powrotu do ekranu głównego)
-
-
+#
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
