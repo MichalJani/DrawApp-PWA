@@ -9,3 +9,7 @@ You can dwonload the app from here[https://drawappmichal.firebaseapp.com/].
 
 To download it on Android go to settings and add to home screen.
 To download it on iPhone go to sharing options and choose to add it to your device.
+
+
+`npm start` - runs the project on the localhost:3000
+`npm run build` - builde the project into the build directory
