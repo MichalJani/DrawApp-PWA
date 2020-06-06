@@ -1,35 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="manifest" href="manifest.json" />
+    <title>Draw App</title>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="manifest" href="manifest.json">
-  <title>Draw App</title>
-</head>
-
-<body>
-  <div id="root"></div>
-  <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
-  <script>
-    var config = {
-      apiKey: "AIzaSyCdOS9JPT0E8JuDIkB4fB9_oGmWcSrBSiw",
-      authDomain: "drawappmichal.firebaseapp.com",
-      databaseURL: "https://drawappmichal.firebaseio.com",
-      projectId: "drawappmichal",
-      storageBucket: "drawappmichal.appspot.com",
-      messagingSenderId: "322804233538"
-    };
-    firebase.initializeApp(config);
-  </script>
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js')
-        .then(function () {
+  <body>
+    <div id="root"></div>
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js').then(function () {
           console.log('Service Worker Registered');
         });
-    }
-  </script>
-</body>
-
+      }
+    </script>
+  </body>
 </html>
